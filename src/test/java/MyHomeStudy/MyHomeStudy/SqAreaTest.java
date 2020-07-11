@@ -7,10 +7,8 @@ public class SqAreaTest {
 
     @org.junit.Test
     public void testsquare() {
-        int a = 6;
-        int b = 2;
-        int expected = (short) 2.0;
-        int out = (int) SqArea.square(a,b);
+        int expected = 2;
+        int out = (int) SqArea.square(6,2);
         Assert.assertEquals(expected, out);
     }
 }
