@@ -1,5 +1,3 @@
-package MyHomeStudy.MyHomeStudy.converter;
-
 import static MyHomeStudy.MyHomeStudy.converter.Converter.rubleToDollar;
 import static MyHomeStudy.MyHomeStudy.converter.Converter.rubleToEuro;
 

@@ -1,4 +1,5 @@
-package MyHomeStudy.MyHomeStudy.converter;
+package MyHomeStudy.MyHomeStudy;
+import MyHomeStudy.MyHomeStudy.converter.Converter;
 import org.junit.Assert;
 import org.junit.Test;
 
