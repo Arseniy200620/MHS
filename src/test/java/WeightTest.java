@@ -5,7 +5,7 @@ import org.junit.Test;
 public class WeightTest {
 
     @org.junit.Test
-    public void testmanweight() {
+    public void testManWeight() {
         int hi = 187;
         int expected = (short) 100.05;
         int out = (short) Weight.manWeight((short) hi);
