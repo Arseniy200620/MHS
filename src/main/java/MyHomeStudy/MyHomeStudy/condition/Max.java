@@ -1,12 +1,12 @@
 package MyHomeStudy.MyHomeStudy.condition;
 
 public class Max {
-    public static String max(int Left, int Right) {
-        String label = Left >= Right ? "is <1>" : "is <2>";
+    public static int max(int Left, int Right) {
+        int label = Left >= Right ? Left : Right;
         return label;
     }
     public static void main(String[] args) {
-        String msg = Max.max(20, 24);
+        int msg = Max.max(20, 24);
         System.out.println(msg);
     }
 }
