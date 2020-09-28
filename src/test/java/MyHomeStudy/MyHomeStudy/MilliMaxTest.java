@@ -5,8 +5,8 @@ import org.junit.Test;
     public class MilliMaxTest {
         @Test
         public void whenSecondMax() {
-            int result = MilitiMax.max(1, 4, 2);
-            assertThat(result, is(4));
+            int result = MilitiMax.max(1, 4, 6);
+            assertThat(result, is(6));
         }
     }
 
