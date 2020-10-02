@@ -13,7 +13,7 @@ public class CounterTest {
 
     public void eight() {
             int rsla = Counter.sum(3, 8);
-            int expecteda = 18;
+            int expecteda = 33;
             assertThat(rsla, is(expecteda));
     }
 }
